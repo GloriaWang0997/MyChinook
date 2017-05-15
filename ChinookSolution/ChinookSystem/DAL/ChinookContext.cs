@@ -14,7 +14,7 @@ namespace ChinookSystem.DAL
     //Access is restricted to within this class library project
     //Inherits DbContext for Entity Framework,which requires
     //  System.Data.Entity
-    internal class ChinookContext ; DbContext
+    internal class ChinookContext : DbContext
     {
         //Pass the connection string name to the 
         //  DbContext using :base()
